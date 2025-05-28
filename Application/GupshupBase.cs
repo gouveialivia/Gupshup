@@ -11,8 +11,8 @@ public class Gupshup
     {
         var options = new RestClientOptions(Config.Url);
         client = new RestClient(options);
+        request = new RestRequest();
 
-        request = new RestRequest("");
         request.AddHeader("accept", "application/json");
         request.AddHeader("apikey", Config.Apikey);
         request.AddParameter("channel", "whatsapp");
@@ -21,3 +21,5 @@ public class Gupshup
         request.AddParameter("src.name", Config.Nome);
     }
 }
+//Arrumar aqui!!!!!!!!!! (Codigo esta mei cagado)
+// IDEIA: todas as variaveis repetitivas que sao usadas em todos os SendMessages estao resumidas aqui, pra diminuir o codigo e ficar mais clean

@@ -1,0 +1,9 @@
+{
+    "UrlsConfig": {
+        "VideoUrl": "https://www.buildquickbots.com/whatsapp/media/sample/video/sample01.mp4",
+        "ImagemUrl": "https://www.buildquickbots.com/whatsapp/media/sample/jpg/sample01.jpg",
+        "PdfUrl": "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
+        "StickerUrl": "http://www.buildquickbots.com/whatsapp/stickers/SampleSticker01.webp"
+        
+    }
+} 

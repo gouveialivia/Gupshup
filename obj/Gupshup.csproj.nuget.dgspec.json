@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/livia-gouveia/Documentos/GUPSHUP/Gupshup/Gupshup.csproj": {}
+    "/home/livia-gouveia/Downloads/Gupshup-main/Gupshup-1/Gupshup.csproj": {}
   },
   "projects": {
-    "/home/livia-gouveia/Documentos/GUPSHUP/Gupshup/Gupshup.csproj": {
+    "/home/livia-gouveia/Downloads/Gupshup-main/Gupshup-1/Gupshup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/livia-gouveia/Documentos/GUPSHUP/Gupshup/Gupshup.csproj",
+        "projectUniqueName": "/home/livia-gouveia/Downloads/Gupshup-main/Gupshup-1/Gupshup.csproj",
         "projectName": "Gupshup",
-        "projectPath": "/home/livia-gouveia/Documentos/GUPSHUP/Gupshup/Gupshup.csproj",
+        "projectPath": "/home/livia-gouveia/Downloads/Gupshup-main/Gupshup-1/Gupshup.csproj",
         "packagesPath": "/home/livia-gouveia/.nuget/packages/",
-        "outputPath": "/home/livia-gouveia/Documentos/GUPSHUP/Gupshup/obj/",
+        "outputPath": "/home/livia-gouveia/Downloads/Gupshup-main/Gupshup-1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/livia-gouveia/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             },
             "RestSharp": {
               "target": "Package",

@@ -1,6 +1,7 @@
 using DotNetEnv;
 using System;
 
+//Aqui esta carregando as Keys que defini na minha .ENV, questao de segurança
 public static class Config
 {
     static Config()
@@ -16,4 +17,6 @@ public static class Config
     public static string AppId => Environment.GetEnvironmentVariable("app_id") ?? "";
 
     public static string Destino_Numero => Environment.GetEnvironmentVariable("destino_numero") ?? "";
+
+
 }
